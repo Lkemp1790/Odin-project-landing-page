@@ -97,7 +97,7 @@ body {
 }
 
 .features {
-    padding: 0 16px;
+    padding: 0 16px 100px 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -143,22 +143,65 @@ body {
     background-image: url("https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.5s ease-in-out;
 }
 
 .two {
     background-image: url("https://media.giphy.com/media/2IudUHdI075HL02Pkk/giphy.gif");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.5s ease-in-out;
+
+
 }
 
 .three {
     background-image: url("https://media.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.gif");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.5s ease-in-out;
+
 }
 
 .four {
     background-image: url("https://media.giphy.com/media/vrxxqQbyRxYi6scCjT/giphy.gif");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover {
+    background-size: 200%;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.quote-container h2 {
+    font-size: 32px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-container h3 {
+    margin: 10px 0 0 auto;
 }
