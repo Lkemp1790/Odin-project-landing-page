@@ -16,7 +16,7 @@ body {
     background-color: #1f2937;
     width: 100%;
     align-items: center;
-    flex-wrap: wrap;
+    padding: 0 16px;
 
 }
 
@@ -27,7 +27,7 @@ body {
     justify-content: space-between;
     align-items: center;
     max-width: 1000px;
-    width: 95%;
+    width: 100%;
 
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .hero-right {
-    flex: 1 0;
+    flex: 1 0 auto;
 }
 
 .hero-right img {
@@ -65,7 +65,9 @@ body {
     padding: 0 16px;
     max-width: 1000px;
     gap: 30px;
+    flex: 1 0;
 }
+
 
 .hero-left {
     display: flex;
@@ -193,6 +195,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     max-width: 1000px;
+    padding: 0 16px;
 }
 
 .quote-container h2 {
@@ -205,3 +208,52 @@ body {
 .quote-container h3 {
     margin: 10px 0 0 auto;
 }
+
+.cta {
+    padding: 100px 16px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color: #3883f6;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    
+}
+
+.cta-container h2, p {
+    color: white;
+}
+
+.cta-btn {
+    background: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 0 12px;
+    color: white;
+    font-weight: 600;
+    width: 120px;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: rgba(255, 255, 255, 0.384);
+}
+
+.footer {
+    background-color: #1F2937;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}
+
